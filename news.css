@@ -34,15 +34,63 @@ a#preview h3 {
     width: 205px;
 }
 
+#news-sort {
+    color: rgb(43, 43, 148);
+}
+
+form#report {
+    text-align: center;
+    padding: 80px;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+form input#report-input {
+    width: 390px;
+    height: 65px;
+    margin: 30px 20px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+form textarea#report-textarea {
+    width: 500px; 
+	height: 250px;
+    resize: none;
+    margin: 10px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input#submitbtn {
+    box-shadow: 3px 3px 3px 3px rgb(73, 73, 73);
+    background-color: burlywood;
+    border: 1px solid;
+    border-radius: 12px;
+    width: 350px;
+    height: 70px;
+    margin: 40px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    transition-duration: 0.3s;
+}
+
+input#submitbtn:active {
+    margin-right: 3px;
+    margin-bottom : 3px;
+    box-shadow : none;
+}
+
 div.center {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
 }
 
-#news-sort {
-    color: rgb(43, 43, 148);
-}
+
 
 
 
