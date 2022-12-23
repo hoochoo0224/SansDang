@@ -108,6 +108,10 @@ nav .active {
     body {
         background-color: #faedeb;
     }
+
+    img {
+        width: 250px;
+    }
     
     h1 {
         text-align: center;
