@@ -1,5 +1,7 @@
 img {
     width: 360px;
+    padding: 2px 30px;
+    margin-top: 10px;
 }
 
 body {
@@ -22,8 +24,10 @@ p {
 }
 
 label#logo-label {
-    padding: 30px;
+    display: flex;
+    padding: 3px 30px;
     font-size: 14px;
+    margin-bottom: 5px;
 }
 
 nav ul {
