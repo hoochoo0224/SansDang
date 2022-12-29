@@ -1,11 +1,14 @@
-img {
-    width: 360px;
-    padding: 2px 30px;
-    margin-top: 10px;
-}
-
 body {
     background-color: #faedeb;
+}
+
+img {
+    width: 360px;
+}
+
+div#imgbox {
+    float: left;
+    margin-left: 200px;
 }
 
 h1 {
@@ -23,10 +26,11 @@ p {
     padding: 80px 20px;
 }
 
-label#logo-label {
+label#img-label {
     display: flex;
-    padding: 3px 30px;
+    padding: 1px 10px;
     font-size: 14px;
+    color: grey;
     margin-bottom: 5px;
 }
 
@@ -111,6 +115,11 @@ nav .active {
 @media (max-width: 767px){
     body {
         background-color: #faedeb;
+    }
+
+    div#imgbox {
+        float: left;
+        margin-left: auto;
     }
 
     img {
