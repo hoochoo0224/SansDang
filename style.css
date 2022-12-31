@@ -7,8 +7,8 @@ img {
 }
 
 div#imgbox {
-    float: left;
-    margin-left: 200px;
+    float: right;
+    margin-right: 200px;
 }
 
 h1 {
@@ -118,8 +118,8 @@ nav .active {
     }
 
     div#imgbox {
-        float: left;
-        margin-left: auto;
+        float: right;
+        margin-right: 30px;
     }
 
     img {

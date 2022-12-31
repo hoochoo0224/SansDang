@@ -4,7 +4,7 @@ p#date-writer {
 }
 
 a#preview {
-    float: left;
+    float: right;
     padding: 15px 15px;
     text-decoration: none;
     color: black;
