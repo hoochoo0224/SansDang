@@ -1,2 +1,2 @@
-# SansDang
-샌즈당
+# SeoMiddleSchoolReformParty
+서중개혁당
